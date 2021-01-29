@@ -1,0 +1,26 @@
+## IMPROVEMENT PROPOSAL
+
+### About users
+To improve the system I would add more custom proxy views to be able to optimally 
+handle users with a more personalized role assignment and also add actions that are 
+triggered according to their behavior when using the application, as well as custom 
+views that allow to communicate with the frontend.
+
+
+### About Unit Test
+About unit tests, create unit tests for each API by Request type and an automatic 
+Json load expected to validate the values ​​of the expected fields.
+
+
+### About users interactions with application
+What I now add as a type of "wished list" and acts as a counter that is stored in 
+the product's history, I would change it to adhere more to the requirement and detect 
+the common user through the application cache and create a custom list by products 
+viewed and not only those added to the wish lists in order to create another api 
+through this history that lets you know which products to recommend per user.
+
+### About Reports and analysis
+For the analysis of data and reports, a tool like new relic could be added to see in 
+real time the interactions of the users and automatic filling of reports based on 
+interactions
+
