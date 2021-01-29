@@ -4,4 +4,5 @@ from .models import MyProduct
 class MyProductSerializer(serializers.ModelSerializer):
     class Meta:
         model = MyProduct
-        fields = '__all__' #Fields to show in API REST, could be '__all__'
+        fields = '__all__' #Fields to show in API REST, could be ['name','prize']
+        
