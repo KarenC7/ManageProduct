@@ -7,7 +7,7 @@ import requests
 url = 'http://localhost:8000/products/'
 
 def test_create_new_product():
-    file = open('C:\\Users\\kcastillo\\Desktop\\CreateNewProduct.json','r')
+    file = open('{yourAbsolutePath}\\CreateNewProduct.json','r')
     json_input = file.read()
     request_json = json.loads(json_input)
     response =requests.post(url,request_json)
